@@ -1,0 +1,4 @@
+[console_scripts]
+publisher = rover_odometry.publisher:main
+subscriber = rover_odometry.subscriber:main
+

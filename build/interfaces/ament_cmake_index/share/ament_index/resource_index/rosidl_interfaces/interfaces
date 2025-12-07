@@ -1,0 +1,6 @@
+mars_msgs/RoverOdometry.msg
+msg/RoverOdometry.idl
+srv/AddThreeInts.idl
+srv/AddThreeInts.srv
+srv/AddThreeInts_Request.msg
+srv/AddThreeInts_Response.msg

@@ -1,0 +1,7 @@
+{
+  "package_name": "mars_msgs",
+  "non_idl_tuples": [
+    "/home/pradyun/Assignment2_ws/src/mars_msgs:msg/RoverOdometry.msg",
+    "/home/pradyun/Assignment2_ws/src/mars_msgs:srv/AddThreeInts.srv"
+  ]
+}

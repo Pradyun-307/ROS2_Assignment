@@ -1,0 +1,1 @@
+Invoking command in '/home/pradyun/Assignment2_ws/build/mars_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pradyun/Assignment2_ws/build/mars_msgs -- -j12 -l12

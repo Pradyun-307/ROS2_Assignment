@@ -1,0 +1,28 @@
+[0.554s] Invoking command in '/home/pradyun/Assignment2_ws/src/Rover': PYTHONPATH=/home/pradyun/Assignment2_ws/build/Rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pradyun/Assignment2_ws/install/Rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Rover build --build-base /home/pradyun/Assignment2_ws/build/Rover/build install --record /home/pradyun/Assignment2_ws/build/Rover/install.log --single-version-externally-managed install_data
+[0.698s] running egg_info
+[0.698s] writing ../../build/Rover/Rover.egg-info/PKG-INFO
+[0.698s] writing dependency_links to ../../build/Rover/Rover.egg-info/dependency_links.txt
+[0.698s] writing entry points to ../../build/Rover/Rover.egg-info/entry_points.txt
+[0.698s] writing requirements to ../../build/Rover/Rover.egg-info/requires.txt
+[0.698s] writing top-level names to ../../build/Rover/Rover.egg-info/top_level.txt
+[0.699s] reading manifest file '../../build/Rover/Rover.egg-info/SOURCES.txt'
+[0.700s] writing manifest file '../../build/Rover/Rover.egg-info/SOURCES.txt'
+[0.700s] running build
+[0.700s] running build_py
+[0.700s] running install
+[0.700s] running install_lib
+[0.701s] byte-compiling /home/pradyun/Assignment2_ws/install/Rover/lib/python3.10/site-packages/Rover/pub1.py to pub1.cpython-310.pyc
+[0.701s] running install_data
+[0.701s]   File "/home/pradyun/Assignment2_ws/install/Rover/lib/python3.10/site-packages/Rover/pub1.py", line 2
+[0.701s]     from rclpy.node import Nodeimport rclpy
+[0.701s]                                       ^^^^^
+[0.701s] SyntaxError: invalid syntax
+[0.701s] 
+[0.701s] copying launch/launch.py -> /home/pradyun/Assignment2_ws/install/Rover/share/Rover/launch
+[0.701s] running install_egg_info
+[0.703s] removing '/home/pradyun/Assignment2_ws/install/Rover/lib/python3.10/site-packages/Rover-0.0.0-py3.10.egg-info' (and everything under it)
+[0.703s] Copying ../../build/Rover/Rover.egg-info to /home/pradyun/Assignment2_ws/install/Rover/lib/python3.10/site-packages/Rover-0.0.0-py3.10.egg-info
+[0.703s] running install_scripts
+[0.717s] Installing pub1 = Rover.pub1:mainpub2 = Rover.pub2:mainsub script to /home/pradyun/Assignment2_ws/install/Rover/lib/Rover
+[0.717s] writing list of installed files to '/home/pradyun/Assignment2_ws/build/Rover/install.log'
+[0.736s] Invoked command in '/home/pradyun/Assignment2_ws/src/Rover' returned '0': PYTHONPATH=/home/pradyun/Assignment2_ws/build/Rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pradyun/Assignment2_ws/install/Rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Rover build --build-base /home/pradyun/Assignment2_ws/build/Rover/build install --record /home/pradyun/Assignment2_ws/build/Rover/install.log --single-version-externally-managed install_data

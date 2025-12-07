@@ -1,0 +1,5 @@
+[console_scripts]
+pub1 = rover.pub1:main
+pub2 = rover.pub2:main
+sub = rover.sub:main
+

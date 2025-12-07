@@ -1,0 +1,265 @@
+[0.011s] Invoking command in '/home/pradyun/Assignment2_ws/build/mars_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pradyun/Assignment2_ws/src/mars_msgs -DCMAKE_INSTALL_PREFIX=/home/pradyun/Assignment2_ws/install/mars_msgs
+[0.168s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.168s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.168s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.168s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.168s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.168s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.168s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.380s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.706s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.833s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.854s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.854s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.877s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.877s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.877s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.878s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.899s] -- Found PythonExtra: .so  
+[0.944s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.953s] -- Added test 'lint_cmake' to check CMake code style
+[0.953s] -- Added test 'xmllint' to check XML markup files
+[0.955s] -- Configuring done
+[0.974s] -- Generating done
+[0.982s] -- Build files have been written to: /home/pradyun/Assignment2_ws/build/mars_msgs
+[0.986s] Invoked command in '/home/pradyun/Assignment2_ws/build/mars_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pradyun/Assignment2_ws/src/mars_msgs -DCMAKE_INSTALL_PREFIX=/home/pradyun/Assignment2_ws/install/mars_msgs
+[0.987s] Invoking command in '/home/pradyun/Assignment2_ws/build/mars_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pradyun/Assignment2_ws/build/mars_msgs -- -j12 -l12
+[1.027s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.036s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.041s] [  5%] Built target ament_cmake_python_copy_mars_msgs
+[1.191s] running egg_info
+[1.191s] creating mars_msgs.egg-info
+[1.192s] writing mars_msgs.egg-info/PKG-INFO
+[1.192s] writing dependency_links to mars_msgs.egg-info/dependency_links.txt
+[1.192s] writing top-level names to mars_msgs.egg-info/top_level.txt
+[1.192s] writing manifest file 'mars_msgs.egg-info/SOURCES.txt'
+[1.193s] reading manifest file 'mars_msgs.egg-info/SOURCES.txt'
+[1.193s] writing manifest file 'mars_msgs.egg-info/SOURCES.txt'
+[1.215s] [  5%] Built target ament_cmake_python_build_mars_msgs_egg
+[1.247s] [  5%] Built target mars_msgs__cpp
+[1.255s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.256s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.256s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.256s] [ 15%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/srv/detail/add_three_ints__functions.c.o[0m
+[1.259s] [ 17%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/msg/detail/rover_odometry__functions.c.o[0m
+[1.324s] [ 20%] [32m[1mLinking C shared library libmars_msgs__rosidl_generator_c.so[0m
+[1.364s] [ 20%] Built target mars_msgs__rosidl_generator_c
+[1.374s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.375s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.377s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.466s] [ 30%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mars_msgs/msg/rover_odometry__type_support.cpp.o[0m
+[1.469s] [ 33%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mars_msgs/srv/add_three_ints__type_support.cpp.o[0m
+[1.503s] [ 35%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mars_msgs/srv/detail/add_three_ints__type_support.cpp.o[0m
+[1.504s] [ 38%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mars_msgs/msg/detail/rover_odometry__type_support.cpp.o[0m
+[1.518s] [ 41%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mars_msgs/msg/detail/dds_fastrtps/rover_odometry__type_support.cpp.o[0m
+[1.521s] [ 43%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mars_msgs/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[1.676s] [ 46%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mars_msgs/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[1.677s] [ 48%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mars_msgs/msg/detail/rover_odometry__type_support_c.cpp.o[0m
+[1.875s] [ 51%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mars_msgs/msg/detail/rover_odometry__type_support.c.o[0m
+[1.877s] [ 53%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mars_msgs/srv/detail/add_three_ints__type_support.c.o[0m
+[1.881s] [ 56%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mars_msgs/srv/add_three_ints__type_support.cpp.o[0m
+[1.882s] [ 58%] [32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mars_msgs/msg/rover_odometry__type_support.cpp.o[0m
+[1.916s] [ 61%] [32m[1mLinking CXX shared library libmars_msgs__rosidl_typesupport_c.so[0m
+[1.922s] [ 64%] [32m[1mLinking C shared library libmars_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.935s] [ 66%] [32m[1mLinking CXX shared library libmars_msgs__rosidl_typesupport_cpp.so[0m
+[1.955s] [ 66%] Built target mars_msgs__rosidl_typesupport_c
+[1.963s] [ 66%] Built target mars_msgs__rosidl_typesupport_introspection_c
+[1.972s] [ 66%] Built target mars_msgs__rosidl_typesupport_cpp
+[2.009s] [ 69%] [32m[1mLinking CXX shared library libmars_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.070s] [ 69%] Built target mars_msgs__rosidl_typesupport_introspection_cpp
+[2.084s] [ 71%] [32m[1mLinking CXX shared library libmars_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.097s] [ 74%] [32m[1mLinking CXX shared library libmars_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.147s] [ 74%] Built target mars_msgs__rosidl_typesupport_fastrtps_c
+[2.154s] [ 74%] Built target mars_msgs__rosidl_typesupport_fastrtps_cpp
+[2.168s] [ 74%] Built target mars_msgs
+[2.190s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.472s] [ 76%] Built target mars_msgs__py
+[2.487s] [ 79%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_py.dir/rosidl_generator_py/mars_msgs/msg/_rover_odometry_s.c.o[0m
+[2.487s] [ 82%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_py.dir/rosidl_generator_py/mars_msgs/srv/_add_three_ints_s.c.o[0m
+[2.558s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/mars_msgs/libmars_msgs__rosidl_generator_py.so[0m
+[2.591s] [ 84%] Built target mars_msgs__rosidl_generator_py
+[2.610s] [ 89%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.610s] [ 89%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.612s] [ 92%] [32mBuilding C object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.677s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/mars_msgs/mars_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.678s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/mars_msgs/mars_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.684s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mars_msgs/mars_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.707s] [100%] Built target mars_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.708s] [100%] Built target mars_msgs__rosidl_typesupport_c__pyext
+[2.714s] [100%] Built target mars_msgs__rosidl_typesupport_introspection_c__pyext
+[2.723s] Invoked command in '/home/pradyun/Assignment2_ws/build/mars_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pradyun/Assignment2_ws/build/mars_msgs -- -j12 -l12
+[2.732s] Invoking command in '/home/pradyun/Assignment2_ws/build/mars_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pradyun/Assignment2_ws/build/mars_msgs
+[2.743s] -- Install configuration: ""
+[2.743s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/ament_index/resource_index/rosidl_interfaces/mars_msgs
+[2.743s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs
+[2.743s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg
+[2.743s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rover_odometry.h
+[2.743s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.743s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail
+[2.743s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__type_support.h
+[2.743s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__struct.h
+[2.743s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__functions.h
+[2.743s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__functions.c
+[2.743s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv
+[2.744s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/add_three_ints.h
+[2.744s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail
+[2.744s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__functions.c
+[2.744s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__type_support.h
+[2.744s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__struct.h
+[2.744s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__functions.h
+[2.744s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/environment/library_path.sh
+[2.744s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/environment/library_path.dsv
+[2.744s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_generator_c.so
+[2.744s] -- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_generator_c.so" to ""
+[2.744s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs
+[2.744s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg
+[2.744s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.744s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail
+[2.745s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__rosidl_typesupport_fastrtps_c.h
+[2.745s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv
+[2.745s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail
+[2.745s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[2.745s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_fastrtps_c.so
+[2.745s] -- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[2.745s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs
+[2.745s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg
+[2.745s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rover_odometry.hpp
+[2.746s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.746s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail
+[2.746s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__struct.hpp
+[2.746s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__traits.hpp
+[2.746s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__type_support.hpp
+[2.746s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__builder.hpp
+[2.746s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv
+[2.746s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/add_three_ints.hpp
+[2.746s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail
+[2.747s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__struct.hpp
+[2.747s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__builder.hpp
+[2.747s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__traits.hpp
+[2.747s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__type_support.hpp
+[2.747s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs
+[2.747s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg
+[2.747s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.747s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail
+[2.747s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__rosidl_typesupport_fastrtps_cpp.hpp
+[2.747s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/dds_fastrtps
+[2.747s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv
+[2.747s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail
+[2.747s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/dds_fastrtps
+[2.747s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[2.747s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.747s] -- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.747s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs
+[2.748s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg
+[2.748s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.748s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail
+[2.748s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__type_support.c
+[2.748s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__rosidl_typesupport_introspection_c.h
+[2.748s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv
+[2.748s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail
+[2.748s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__type_support.c
+[2.748s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[2.748s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_introspection_c.so
+[2.748s] -- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_introspection_c.so" to ""
+[2.748s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_c.so
+[2.748s] -- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_c.so" to ""
+[2.748s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs
+[2.749s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg
+[2.749s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail
+[2.749s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__type_support.cpp
+[2.749s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__rosidl_typesupport_introspection_cpp.hpp
+[2.749s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv
+[2.749s] -- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail
+[2.749s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__type_support.cpp
+[2.749s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[2.749s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_introspection_cpp.so
+[2.749s] -- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[2.749s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_cpp.so
+[2.749s] -- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_cpp.so" to ""
+[2.749s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/environment/pythonpath.sh
+[2.749s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/environment/pythonpath.dsv
+[2.749s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs-0.0.0-py3.10.egg-info
+[2.750s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.750s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.750s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.750s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.750s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs
+[2.750s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.750s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.750s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/__init__.py
+[2.750s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.750s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_c.c
+[2.750s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.750s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.750s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/msg
+[2.750s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/msg/__init__.py
+[2.750s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/msg/_rover_odometry.py
+[2.751s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/msg/_rover_odometry_s.c
+[2.751s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/srv
+[2.751s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/srv/__init__.py
+[2.751s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/srv/_add_three_ints_s.c
+[2.751s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/srv/_add_three_ints.py
+[2.751s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/libmars_msgs__rosidl_generator_py.so
+[2.780s] Listing '/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs'...
+[2.780s] Compiling '/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/__init__.py'...
+[2.780s] Listing '/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/msg'...
+[2.780s] Compiling '/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/msg/__init__.py'...
+[2.780s] Compiling '/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/msg/_rover_odometry.py'...
+[2.780s] Listing '/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/srv'...
+[2.780s] Compiling '/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/srv/__init__.py'...
+[2.780s] Compiling '/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/srv/_add_three_ints.py'...
+[2.783s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.783s] -- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.784s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.784s] -- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.784s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.784s] -- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.784s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_generator_py.so
+[2.784s] -- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_generator_py.so" to ""
+[2.784s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/msg/RoverOdometry.idl
+[2.784s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/srv/AddThreeInts.idl
+[2.784s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/msg/RoverOdometry.msg
+[2.784s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/srv/AddThreeInts.srv
+[2.784s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/srv/AddThreeInts_Request.msg
+[2.784s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/srv/AddThreeInts_Response.msg
+[2.784s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/ament_index/resource_index/package_run_dependencies/mars_msgs
+[2.785s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/ament_index/resource_index/parent_prefix_path/mars_msgs
+[2.785s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/environment/ament_prefix_path.sh
+[2.785s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/environment/ament_prefix_path.dsv
+[2.785s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/environment/path.sh
+[2.785s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/environment/path.dsv
+[2.785s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/local_setup.bash
+[2.785s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/local_setup.sh
+[2.785s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/local_setup.zsh
+[2.785s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/local_setup.dsv
+[2.785s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/package.dsv
+[2.785s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/ament_index/resource_index/packages/mars_msgs
+[2.785s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_generator_cExport.cmake
+[2.785s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.785s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.785s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.785s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_generator_cppExport.cmake
+[2.785s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.785s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.785s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.785s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.786s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_cExport.cmake
+[2.786s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.786s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.786s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.786s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_cppExport.cmake
+[2.786s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.786s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_generator_pyExport.cmake
+[2.786s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.786s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/rosidl_cmake-extras.cmake
+[2.786s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.786s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.786s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.786s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.786s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.786s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.786s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgsConfig.cmake
+[2.786s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgsConfig-version.cmake
+[2.786s] -- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/package.xml
+[2.788s] Invoked command in '/home/pradyun/Assignment2_ws/build/mars_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pradyun/Assignment2_ws/build/mars_msgs

@@ -1,0 +1,23 @@
+[0.018s] Invoking command in '/home/pradyun/Assignment2_ws/build/mars_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pradyun/Assignment2_ws/build/mars_msgs -- -j12 -l12
+[0.242s] [ 10%] Built target mars_msgs__rosidl_generator_c
+[0.243s] [ 12%] Built target mars_msgs__cpp
+[0.243s] [ 12%] Built target ament_cmake_python_copy_mars_msgs
+[0.244s] [ 23%] Built target mars_msgs__rosidl_typesupport_introspection_c
+[0.244s] [ 33%] Built target mars_msgs__rosidl_typesupport_fastrtps_cpp
+[0.244s] [ 43%] Built target mars_msgs__rosidl_typesupport_c
+[0.244s] [ 53%] Built target mars_msgs__rosidl_typesupport_cpp
+[0.244s] [ 64%] Built target mars_msgs__rosidl_typesupport_fastrtps_c
+[0.244s] [ 74%] Built target mars_msgs__rosidl_typesupport_introspection_cpp
+[0.244s] [ 74%] Built target mars_msgs
+[0.244s] [ 76%] Built target mars_msgs__py
+[0.244s] [ 84%] Built target mars_msgs__rosidl_generator_py
+[0.245s] [ 89%] Built target mars_msgs__rosidl_typesupport_c__pyext
+[0.245s] [ 94%] Built target mars_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.245s] [100%] Built target mars_msgs__rosidl_typesupport_introspection_c__pyext
+[0.282s] running egg_info
+[0.282s] writing mars_msgs.egg-info/PKG-INFO
+[0.282s] writing dependency_links to mars_msgs.egg-info/dependency_links.txt
+[0.283s] writing top-level names to mars_msgs.egg-info/top_level.txt
+[0.285s] reading manifest file 'mars_msgs.egg-info/SOURCES.txt'
+[0.285s] writing manifest file 'mars_msgs.egg-info/SOURCES.txt'
+[0.310s] [100%] Built target ament_cmake_python_build_mars_msgs_egg

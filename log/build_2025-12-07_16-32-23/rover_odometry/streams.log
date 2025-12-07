@@ -1,0 +1,39 @@
+[0.542s] Invoking command in '/home/pradyun/Assignment2_ws/src/rover_odometry': PYTHONPATH=/home/pradyun/Assignment2_ws/build/rover_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_odometry build --build-base /home/pradyun/Assignment2_ws/build/rover_odometry/build install --record /home/pradyun/Assignment2_ws/build/rover_odometry/install.log --single-version-externally-managed install_data
+[0.687s] running egg_info
+[0.687s] creating ../../build/rover_odometry/rover_odometry.egg-info
+[0.687s] writing ../../build/rover_odometry/rover_odometry.egg-info/PKG-INFO
+[0.688s] writing dependency_links to ../../build/rover_odometry/rover_odometry.egg-info/dependency_links.txt
+[0.688s] writing entry points to ../../build/rover_odometry/rover_odometry.egg-info/entry_points.txt
+[0.688s] writing requirements to ../../build/rover_odometry/rover_odometry.egg-info/requires.txt
+[0.688s] writing top-level names to ../../build/rover_odometry/rover_odometry.egg-info/top_level.txt
+[0.688s] writing manifest file '../../build/rover_odometry/rover_odometry.egg-info/SOURCES.txt'
+[0.689s] reading manifest file '../../build/rover_odometry/rover_odometry.egg-info/SOURCES.txt'
+[0.689s] writing manifest file '../../build/rover_odometry/rover_odometry.egg-info/SOURCES.txt'
+[0.690s] running build
+[0.690s] running build_py
+[0.690s] creating /home/pradyun/Assignment2_ws/build/rover_odometry/build
+[0.690s] creating /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib
+[0.690s] creating /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry
+[0.690s] copying rover_odometry/subscriber.py -> /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry
+[0.690s] copying rover_odometry/__init__.py -> /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry
+[0.690s] copying rover_odometry/publisher.py -> /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry
+[0.690s] running install
+[0.690s] running install_lib
+[0.691s] creating /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry
+[0.691s] copying /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry/subscriber.py -> /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry
+[0.691s] copying /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry/__init__.py -> /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry
+[0.691s] copying /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry/publisher.py -> /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry
+[0.691s] byte-compiling /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry/subscriber.py to subscriber.cpython-310.pyc
+[0.691s] byte-compiling /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry/__init__.py to __init__.cpython-310.pyc
+[0.692s] byte-compiling /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry/publisher.py to publisher.cpython-310.pyc
+[0.692s] running install_data
+[0.692s] creating /home/pradyun/Assignment2_ws/install/rover_odometry/share/ament_index
+[0.692s] creating /home/pradyun/Assignment2_ws/install/rover_odometry/share/ament_index/resource_index
+[0.692s] creating /home/pradyun/Assignment2_ws/install/rover_odometry/share/ament_index/resource_index/packages
+[0.692s] copying resource/rover_odometry -> /home/pradyun/Assignment2_ws/install/rover_odometry/share/ament_index/resource_index/packages
+[0.692s] copying package.xml -> /home/pradyun/Assignment2_ws/install/rover_odometry/share/rover_odometry
+[0.692s] running install_egg_info
+[0.693s] Copying ../../build/rover_odometry/rover_odometry.egg-info to /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry-0.0.0-py3.10.egg-info
+[0.694s] running install_scripts
+[0.710s] writing list of installed files to '/home/pradyun/Assignment2_ws/build/rover_odometry/install.log'
+[0.729s] Invoked command in '/home/pradyun/Assignment2_ws/src/rover_odometry' returned '0': PYTHONPATH=/home/pradyun/Assignment2_ws/build/rover_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_odometry build --build-base /home/pradyun/Assignment2_ws/build/rover_odometry/build install --record /home/pradyun/Assignment2_ws/build/rover_odometry/install.log --single-version-externally-managed install_data

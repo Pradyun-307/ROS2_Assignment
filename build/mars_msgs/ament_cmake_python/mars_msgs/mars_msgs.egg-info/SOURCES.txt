@@ -1,0 +1,10 @@
+setup.py
+mars_msgs/__init__.py
+mars_msgs.egg-info/PKG-INFO
+mars_msgs.egg-info/SOURCES.txt
+mars_msgs.egg-info/dependency_links.txt
+mars_msgs.egg-info/top_level.txt
+mars_msgs/msg/__init__.py
+mars_msgs/msg/_rover_odometry.py
+mars_msgs/srv/__init__.py
+mars_msgs/srv/_add_three_ints.py
