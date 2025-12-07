@@ -1,0 +1,43 @@
+[0.384s] Invoking command in '/home/pradyun/Assignment2_ws/src/rover_odometry': AMENT_PREFIX_PATH=/home/pradyun/Assignment2_ws/install/mars_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pradyun/Assignment2_ws/install/mars_msgs LD_LIBRARY_PATH=/home/pradyun/Assignment2_ws/install/mars_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pradyun/Assignment2_ws/build/rover_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages:/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_odometry build --build-base /home/pradyun/Assignment2_ws/build/rover_odometry/build install --record /home/pradyun/Assignment2_ws/build/rover_odometry/install.log --single-version-externally-managed install_data
+[0.528s] running egg_info
+[0.528s] creating ../../build/rover_odometry/rover_odometry.egg-info
+[0.528s] writing ../../build/rover_odometry/rover_odometry.egg-info/PKG-INFO
+[0.529s] writing dependency_links to ../../build/rover_odometry/rover_odometry.egg-info/dependency_links.txt
+[0.529s] writing entry points to ../../build/rover_odometry/rover_odometry.egg-info/entry_points.txt
+[0.529s] writing requirements to ../../build/rover_odometry/rover_odometry.egg-info/requires.txt
+[0.529s] writing top-level names to ../../build/rover_odometry/rover_odometry.egg-info/top_level.txt
+[0.529s] writing manifest file '../../build/rover_odometry/rover_odometry.egg-info/SOURCES.txt'
+[0.530s] reading manifest file '../../build/rover_odometry/rover_odometry.egg-info/SOURCES.txt'
+[0.530s] writing manifest file '../../build/rover_odometry/rover_odometry.egg-info/SOURCES.txt'
+[0.530s] running build
+[0.530s] running build_py
+[0.531s] creating /home/pradyun/Assignment2_ws/build/rover_odometry/build
+[0.531s] creating /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib
+[0.531s] creating /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry
+[0.531s] copying rover_odometry/__init__.py -> /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry
+[0.531s] copying rover_odometry/publisher.py -> /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry
+[0.531s] copying rover_odometry/subscriber.py -> /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry
+[0.531s] running install
+[0.531s] running install_lib
+[0.532s] creating /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry
+[0.532s] copying /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry/subscriber.py -> /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry
+[0.532s] copying /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry/__init__.py -> /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry
+[0.532s] copying /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry/publisher.py -> /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry
+[0.532s] byte-compiling /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry/subscriber.py to subscriber.cpython-310.pyc
+[0.533s] byte-compiling /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry/__init__.py to __init__.cpython-310.pyc
+[0.533s] byte-compiling /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry/publisher.py to publisher.cpython-310.pyc
+[0.533s] running install_data
+[0.533s] creating /home/pradyun/Assignment2_ws/install/rover_odometry/share/ament_index
+[0.533s] creating /home/pradyun/Assignment2_ws/install/rover_odometry/share/ament_index/resource_index
+[0.533s] creating /home/pradyun/Assignment2_ws/install/rover_odometry/share/ament_index/resource_index/packages
+[0.533s] copying resource/rover_odometry -> /home/pradyun/Assignment2_ws/install/rover_odometry/share/ament_index/resource_index/packages
+[0.533s] copying package.xml -> /home/pradyun/Assignment2_ws/install/rover_odometry/share/rover_odometry
+[0.533s] creating /home/pradyun/Assignment2_ws/install/rover_odometry/share/rover_odometry/launch
+[0.533s] copying launch/launch.py -> /home/pradyun/Assignment2_ws/install/rover_odometry/share/rover_odometry/launch
+[0.533s] running install_egg_info
+[0.535s] Copying ../../build/rover_odometry/rover_odometry.egg-info to /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry-0.0.0-py3.10.egg-info
+[0.536s] running install_scripts
+[0.549s] Installing publisher script to /home/pradyun/Assignment2_ws/install/rover_odometry/lib/rover_odometry
+[0.549s] Installing subscriber script to /home/pradyun/Assignment2_ws/install/rover_odometry/lib/rover_odometry
+[0.549s] writing list of installed files to '/home/pradyun/Assignment2_ws/build/rover_odometry/install.log'
+[0.567s] Invoked command in '/home/pradyun/Assignment2_ws/src/rover_odometry' returned '0': AMENT_PREFIX_PATH=/home/pradyun/Assignment2_ws/install/mars_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pradyun/Assignment2_ws/install/mars_msgs LD_LIBRARY_PATH=/home/pradyun/Assignment2_ws/install/mars_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pradyun/Assignment2_ws/build/rover_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages:/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_odometry build --build-base /home/pradyun/Assignment2_ws/build/rover_odometry/build install --record /home/pradyun/Assignment2_ws/build/rover_odometry/install.log --single-version-externally-managed install_data

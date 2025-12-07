@@ -1,4 +1,0 @@
-[31mCMake Error at CMakeLists.txt:17 (rosidl_generate_mars_msgs):
-  Unknown CMake command "rosidl_generate_mars_msgs".
-
-[0m

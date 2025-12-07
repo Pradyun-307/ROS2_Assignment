@@ -1,6 +1,0 @@
-  File "/home/pradyun/Assignment2_ws/install/Rover/lib/python3.10/site-packages/Rover/pub1.py", line 2
-    from rclpy.node import Nodeimport rclpy
-                                      ^^^^^
-SyntaxError: invalid syntax
-
-error: can't copy 'launch/Rover.launch.py': doesn't exist or not a regular file

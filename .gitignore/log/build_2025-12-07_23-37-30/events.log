@@ -1,0 +1,418 @@
+[0.000000] (-) TimerEvent: {}
+[0.000308] (mars_msgs) JobQueued: {'identifier': 'mars_msgs', 'dependencies': OrderedDict()}
+[0.000454] (rover) JobQueued: {'identifier': 'rover', 'dependencies': OrderedDict()}
+[0.000478] (rover_odometry) JobQueued: {'identifier': 'rover_odometry', 'dependencies': OrderedDict([('mars_msgs', '/home/pradyun/Assignment2_ws/install/mars_msgs')])}
+[0.000494] (mars_msgs) JobStarted: {'identifier': 'mars_msgs'}
+[0.005131] (rover) JobStarted: {'identifier': 'rover'}
+[0.008913] (mars_msgs) JobProgress: {'identifier': 'mars_msgs', 'progress': 'cmake'}
+[0.009087] (mars_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/pradyun/Assignment2_ws/src/mars_msgs', '-DCMAKE_INSTALL_PREFIX=/home/pradyun/Assignment2_ws/install/mars_msgs'], 'cwd': '/home/pradyun/Assignment2_ws/build/mars_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pradyun'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pradyun'), ('OLDPWD', '/home/pradyun'), ('TERMINFO', '/home/pradyun/.local/kitty.app/lib/kitty/terminfo'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('KITTY_INSTALLATION_DIR', '/home/pradyun/.local/kitty.app/lib/kitty'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/pradyun/.local/share/applications/kitty.desktop'), ('ZSH', '/home/pradyun/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1513'), ('KITTY_PID', '3767'), ('SYSTEMD_EXEC_PID', '1675'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3767'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pradyun'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:11052'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'pradyun'), ('TERM', 'xterm-kitty'), ('KITTY_PUBLIC_KEY', '1:RL>0q9+Kd~SeiD;;XvQI_e5iKrh!Lw7)YO%bzSR6'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/pradyun/.local/kitty.app/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/pradyun/.fzf/bin'), ('SESSION_MANAGER', 'local/pradyun-ThinkBook-14-G8-IRL:@/tmp/.ICE-unix/1637,unix/pradyun-ThinkBook-14-G8-IRL:/tmp/.ICE-unix/1637'), ('INVOCATION_ID', 'd9504fab21f84286ba16af38b38111de'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DESKTOP_STARTUP_ID', 'gnome-shell/kitty/1675-1-pradyun-ThinkBook-14-G8-IRL_TIME40238'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5ZDGH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('KITTY_WINDOW_ID', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/pradyun/Assignment2_ws/build/mars_msgs'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MANPATH', '/home/pradyun/.local/kitty.app/share/man:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.082821] (mars_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099513] (-) TimerEvent: {}
+[0.145525] (mars_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.153413] (mars_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199619] (-) TimerEvent: {}
+[0.210986] (mars_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.217621] (mars_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.219492] (mars_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.219964] (mars_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.222416] (mars_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.286775] (mars_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.294047] (mars_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.294180] (mars_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.294461] (mars_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.299717] (-) TimerEvent: {}
+[0.299984] (mars_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399872] (-) TimerEvent: {}
+[0.408748] (rover) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rover', 'build', '--build-base', '/home/pradyun/Assignment2_ws/build/rover/build', 'install', '--record', '/home/pradyun/Assignment2_ws/build/rover/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pradyun/Assignment2_ws/src/rover', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LANGUAGE': 'en_IN:en', 'USER': 'pradyun', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pradyun', 'OLDPWD': '/home/pradyun', 'TERMINFO': '/home/pradyun/.local/kitty.app/lib/kitty/terminfo', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/home/pradyun/.local/kitty.app/lib/kitty', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/pradyun/.local/share/applications/kitty.desktop', 'ZSH': '/home/pradyun/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '1513', 'KITTY_PID': '3767', 'SYSTEMD_EXEC_PID': '1675', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3767', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pradyun', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '8:11052', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'pradyun', 'TERM': 'xterm-kitty', 'KITTY_PUBLIC_KEY': '1:RL>0q9+Kd~SeiD;;XvQI_e5iKrh!Lw7)YO%bzSR6', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/pradyun/.local/kitty.app/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/pradyun/.fzf/bin', 'SESSION_MANAGER': 'local/pradyun-ThinkBook-14-G8-IRL:@/tmp/.ICE-unix/1637,unix/pradyun-ThinkBook-14-G8-IRL:/tmp/.ICE-unix/1637', 'INVOCATION_ID': 'd9504fab21f84286ba16af38b38111de', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DESKTOP_STARTUP_ID': 'gnome-shell/kitty/1675-1-pradyun-ThinkBook-14-G8-IRL_TIME40238', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5ZDGH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/pradyun/Assignment2_ws/build/rover', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pradyun/Assignment2_ws/build/rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'MANPATH': '/home/pradyun/.local/kitty.app/share/man:'}, 'shell': False}
+[0.418111] (mars_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.484893] (mars_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.499999] (-) TimerEvent: {}
+[0.512467] (mars_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.516102] (mars_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.522761] (mars_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.532536] (mars_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.544669] (mars_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.550382] (rover) StdoutLine: {'line': b'running egg_info\n'}
+[0.550619] (rover) StdoutLine: {'line': b'creating ../../build/rover/rover.egg-info\n'}
+[0.550712] (rover) StdoutLine: {'line': b'writing ../../build/rover/rover.egg-info/PKG-INFO\n'}
+[0.550772] (rover) StdoutLine: {'line': b'writing dependency_links to ../../build/rover/rover.egg-info/dependency_links.txt\n'}
+[0.550868] (rover) StdoutLine: {'line': b'writing entry points to ../../build/rover/rover.egg-info/entry_points.txt\n'}
+[0.550902] (rover) StdoutLine: {'line': b'writing requirements to ../../build/rover/rover.egg-info/requires.txt\n'}
+[0.550956] (rover) StdoutLine: {'line': b'writing top-level names to ../../build/rover/rover.egg-info/top_level.txt\n'}
+[0.551148] (rover) StdoutLine: {'line': b"writing manifest file '../../build/rover/rover.egg-info/SOURCES.txt'\n"}
+[0.551993] (rover) StdoutLine: {'line': b"reading manifest file '../../build/rover/rover.egg-info/SOURCES.txt'\n"}
+[0.552529] (rover) StdoutLine: {'line': b"writing manifest file '../../build/rover/rover.egg-info/SOURCES.txt'\n"}
+[0.552629] (rover) StdoutLine: {'line': b'running build\n'}
+[0.552677] (rover) StdoutLine: {'line': b'running build_py\n'}
+[0.552718] (rover) StdoutLine: {'line': b'creating /home/pradyun/Assignment2_ws/build/rover/build\n'}
+[0.552763] (rover) StdoutLine: {'line': b'creating /home/pradyun/Assignment2_ws/build/rover/build/lib\n'}
+[0.552803] (rover) StdoutLine: {'line': b'creating /home/pradyun/Assignment2_ws/build/rover/build/lib/rover\n'}
+[0.552867] (rover) StdoutLine: {'line': b'copying rover/__init__.py -> /home/pradyun/Assignment2_ws/build/rover/build/lib/rover\n'}
+[0.552912] (rover) StdoutLine: {'line': b'copying rover/pub1.py -> /home/pradyun/Assignment2_ws/build/rover/build/lib/rover\n'}
+[0.552951] (rover) StdoutLine: {'line': b'copying rover/pub2.py -> /home/pradyun/Assignment2_ws/build/rover/build/lib/rover\n'}
+[0.552988] (rover) StdoutLine: {'line': b'copying rover/sub.py -> /home/pradyun/Assignment2_ws/build/rover/build/lib/rover\n'}
+[0.553052] (rover) StdoutLine: {'line': b'running install\n'}
+[0.553189] (rover) StdoutLine: {'line': b'running install_lib\n'}
+[0.553632] (rover) StdoutLine: {'line': b'creating /home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages/rover\n'}
+[0.553730] (rover) StdoutLine: {'line': b'copying /home/pradyun/Assignment2_ws/build/rover/build/lib/rover/__init__.py -> /home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages/rover\n'}
+[0.553779] (rover) StdoutLine: {'line': b'copying /home/pradyun/Assignment2_ws/build/rover/build/lib/rover/sub.py -> /home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages/rover\n'}
+[0.553818] (rover) StdoutLine: {'line': b'copying /home/pradyun/Assignment2_ws/build/rover/build/lib/rover/pub2.py -> /home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages/rover\n'}
+[0.553875] (rover) StdoutLine: {'line': b'copying /home/pradyun/Assignment2_ws/build/rover/build/lib/rover/pub1.py -> /home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages/rover\n'}
+[0.553943] (rover) StdoutLine: {'line': b'byte-compiling /home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages/rover/__init__.py to __init__.cpython-310.pyc\n'}
+[0.554051] (rover) StdoutLine: {'line': b'byte-compiling /home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages/rover/sub.py to sub.cpython-310.pyc\n'}
+[0.554320] (rover) StdoutLine: {'line': b'byte-compiling /home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages/rover/pub2.py to pub2.cpython-310.pyc\n'}
+[0.554532] (rover) StdoutLine: {'line': b'byte-compiling /home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages/rover/pub1.py to pub1.cpython-310.pyc\n'}
+[0.554707] (rover) StdoutLine: {'line': b'running install_data\n'}
+[0.554761] (rover) StdoutLine: {'line': b'creating /home/pradyun/Assignment2_ws/install/rover/share/ament_index\n'}
+[0.554818] (rover) StdoutLine: {'line': b'creating /home/pradyun/Assignment2_ws/install/rover/share/ament_index/resource_index\n'}
+[0.554856] (rover) StdoutLine: {'line': b'creating /home/pradyun/Assignment2_ws/install/rover/share/ament_index/resource_index/packages\n'}
+[0.554913] (rover) StdoutLine: {'line': b'copying resource/rover -> /home/pradyun/Assignment2_ws/install/rover/share/ament_index/resource_index/packages\n'}
+[0.554948] (rover) StdoutLine: {'line': b'copying package.xml -> /home/pradyun/Assignment2_ws/install/rover/share/rover\n'}
+[0.554983] (rover) StdoutLine: {'line': b'creating /home/pradyun/Assignment2_ws/install/rover/share/rover/launch\n'}
+[0.555036] (rover) StdoutLine: {'line': b'copying launch/launch.py -> /home/pradyun/Assignment2_ws/install/rover/share/rover/launch\n'}
+[0.555073] (rover) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.556112] (rover) StdoutLine: {'line': b'Copying ../../build/rover/rover.egg-info to /home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info\n'}
+[0.556516] (rover) StdoutLine: {'line': b'running install_scripts\n'}
+[0.569845] (rover) StdoutLine: {'line': b'Installing pub1 script to /home/pradyun/Assignment2_ws/install/rover/lib/rover\n'}
+[0.569920] (rover) StdoutLine: {'line': b'Installing pub2 script to /home/pradyun/Assignment2_ws/install/rover/lib/rover\n'}
+[0.569949] (rover) StdoutLine: {'line': b'Installing sub script to /home/pradyun/Assignment2_ws/install/rover/lib/rover\n'}
+[0.570166] (rover) StdoutLine: {'line': b"writing list of installed files to '/home/pradyun/Assignment2_ws/build/rover/install.log'\n"}
+[0.576014] (mars_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.586547] (rover) CommandEnded: {'returncode': 0}
+[0.594258] (rover) JobEnded: {'identifier': 'rover', 'rc': 0}
+[0.600094] (-) TimerEvent: {}
+[0.700406] (-) TimerEvent: {}
+[0.799167] (mars_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.800546] (-) TimerEvent: {}
+[0.900866] (-) TimerEvent: {}
+[1.001151] (-) TimerEvent: {}
+[1.101471] (-) TimerEvent: {}
+[1.116965] (mars_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201675] (-) TimerEvent: {}
+[1.248804] (mars_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.275275] (mars_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.276400] (mars_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.299612] (mars_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.299805] (mars_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.299894] (mars_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.299976] (mars_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.301755] (-) TimerEvent: {}
+[1.324891] (mars_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.368919] (mars_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.382542] (mars_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.383328] (mars_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.384853] (mars_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.401877] (-) TimerEvent: {}
+[1.404350] (mars_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.411824] (mars_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/pradyun/Assignment2_ws/build/mars_msgs\n'}
+[1.418977] (mars_msgs) CommandEnded: {'returncode': 0}
+[1.419272] (mars_msgs) JobProgress: {'identifier': 'mars_msgs', 'progress': 'build'}
+[1.419292] (mars_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pradyun/Assignment2_ws/build/mars_msgs', '--', '-j12', '-l12'], 'cwd': '/home/pradyun/Assignment2_ws/build/mars_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pradyun'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pradyun'), ('OLDPWD', '/home/pradyun'), ('TERMINFO', '/home/pradyun/.local/kitty.app/lib/kitty/terminfo'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('KITTY_INSTALLATION_DIR', '/home/pradyun/.local/kitty.app/lib/kitty'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/pradyun/.local/share/applications/kitty.desktop'), ('ZSH', '/home/pradyun/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1513'), ('KITTY_PID', '3767'), ('SYSTEMD_EXEC_PID', '1675'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3767'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pradyun'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:11052'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'pradyun'), ('TERM', 'xterm-kitty'), ('KITTY_PUBLIC_KEY', '1:RL>0q9+Kd~SeiD;;XvQI_e5iKrh!Lw7)YO%bzSR6'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/pradyun/.local/kitty.app/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/pradyun/.fzf/bin'), ('SESSION_MANAGER', 'local/pradyun-ThinkBook-14-G8-IRL:@/tmp/.ICE-unix/1637,unix/pradyun-ThinkBook-14-G8-IRL:/tmp/.ICE-unix/1637'), ('INVOCATION_ID', 'd9504fab21f84286ba16af38b38111de'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DESKTOP_STARTUP_ID', 'gnome-shell/kitty/1675-1-pradyun-ThinkBook-14-G8-IRL_TIME40238'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5ZDGH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('KITTY_WINDOW_ID', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/pradyun/Assignment2_ws/build/mars_msgs'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MANPATH', '/home/pradyun/.local/kitty.app/share/man:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.454640] (mars_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.466995] (mars_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.474571] (mars_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_mars_msgs\n'}
+[1.502028] (-) TimerEvent: {}
+[1.602350] (-) TimerEvent: {}
+[1.624023] (mars_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.624298] (mars_msgs) StdoutLine: {'line': b'creating mars_msgs.egg-info\n'}
+[1.624533] (mars_msgs) StdoutLine: {'line': b'writing mars_msgs.egg-info/PKG-INFO\n'}
+[1.624653] (mars_msgs) StdoutLine: {'line': b'writing dependency_links to mars_msgs.egg-info/dependency_links.txt\n'}
+[1.624745] (mars_msgs) StdoutLine: {'line': b'writing top-level names to mars_msgs.egg-info/top_level.txt\n'}
+[1.624865] (mars_msgs) StdoutLine: {'line': b"writing manifest file 'mars_msgs.egg-info/SOURCES.txt'\n"}
+[1.625716] (mars_msgs) StdoutLine: {'line': b"reading manifest file 'mars_msgs.egg-info/SOURCES.txt'\n"}
+[1.626007] (mars_msgs) StdoutLine: {'line': b"writing manifest file 'mars_msgs.egg-info/SOURCES.txt'\n"}
+[1.644287] (mars_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_mars_msgs_egg\n'}
+[1.674545] (mars_msgs) StdoutLine: {'line': b'[  5%] Built target mars_msgs__cpp\n'}
+[1.682065] (mars_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.682408] (mars_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.683297] (mars_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.684850] (mars_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/msg/detail/rover_odometry__functions.c.o\x1b[0m\n'}
+[1.689941] (mars_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_c.dir/rosidl_generator_c/mars_msgs/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[1.702487] (-) TimerEvent: {}
+[1.754048] (mars_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmars_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.782929] (mars_msgs) StdoutLine: {'line': b'[ 20%] Built target mars_msgs__rosidl_generator_c\n'}
+[1.790320] (mars_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.793203] (mars_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.793381] (mars_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.802571] (-) TimerEvent: {}
+[1.879567] (mars_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mars_msgs/msg/rover_odometry__type_support.cpp.o\x1b[0m\n'}
+[1.880548] (mars_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mars_msgs/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[1.881744] (mars_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mars_msgs/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[1.881883] (mars_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mars_msgs/msg/detail/rover_odometry__type_support.cpp.o\x1b[0m\n'}
+[1.902658] (-) TimerEvent: {}
+[1.910218] (mars_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mars_msgs/msg/detail/dds_fastrtps/rover_odometry__type_support.cpp.o\x1b[0m\n'}
+[1.913097] (mars_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mars_msgs/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[1.979068] (mars_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mars_msgs/msg/detail/rover_odometry__type_support.c.o\x1b[0m\n'}
+[1.981139] (mars_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mars_msgs/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[2.002769] (-) TimerEvent: {}
+[2.011404] (mars_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libmars_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.043635] (mars_msgs) StdoutLine: {'line': b'[ 51%] Built target mars_msgs__rosidl_typesupport_introspection_c\n'}
+[2.045811] (mars_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mars_msgs/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[2.045990] (mars_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mars_msgs/msg/detail/rover_odometry__type_support_c.cpp.o\x1b[0m\n'}
+[2.102882] (-) TimerEvent: {}
+[2.112986] (mars_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mars_msgs/msg/rover_odometry__type_support.cpp.o\x1b[0m\n'}
+[2.114818] (mars_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/mars_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mars_msgs/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[2.150267] (mars_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmars_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.186351] (mars_msgs) StdoutLine: {'line': b'[ 64%] Built target mars_msgs__rosidl_typesupport_c\n'}
+[2.202994] (-) TimerEvent: {}
+[2.211383] (mars_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libmars_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.218921] (mars_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libmars_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.254349] (mars_msgs) StdoutLine: {'line': b'[ 69%] Built target mars_msgs__rosidl_typesupport_cpp\n'}
+[2.261540] (mars_msgs) StdoutLine: {'line': b'[ 69%] Built target mars_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.303097] (-) TimerEvent: {}
+[2.313351] (mars_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libmars_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.326853] (mars_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmars_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.370489] (mars_msgs) StdoutLine: {'line': b'[ 74%] Built target mars_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.384558] (mars_msgs) StdoutLine: {'line': b'[ 74%] Built target mars_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.403211] (-) TimerEvent: {}
+[2.403758] (mars_msgs) StdoutLine: {'line': b'[ 74%] Built target mars_msgs\n'}
+[2.428200] (mars_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.503436] (-) TimerEvent: {}
+[2.603855] (-) TimerEvent: {}
+[2.704176] (-) TimerEvent: {}
+[2.710935] (mars_msgs) StdoutLine: {'line': b'[ 76%] Built target mars_msgs__py\n'}
+[2.734934] (mars_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_py.dir/rosidl_generator_py/mars_msgs/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[2.735352] (mars_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_generator_py.dir/rosidl_generator_py/mars_msgs/msg/_rover_odometry_s.c.o\x1b[0m\n'}
+[2.804310] (-) TimerEvent: {}
+[2.831192] (mars_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mars_msgs/libmars_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[2.869698] (mars_msgs) StdoutLine: {'line': b'[ 84%] Built target mars_msgs__rosidl_generator_py\n'}
+[2.888784] (mars_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.888963] (mars_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.889745] (mars_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/mars_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.904445] (-) TimerEvent: {}
+[2.953964] (mars_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mars_msgs/mars_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.957242] (mars_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mars_msgs/mars_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.957409] (mars_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/mars_msgs/mars_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.981233] (mars_msgs) StdoutLine: {'line': b'[100%] Built target mars_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.984121] (mars_msgs) StdoutLine: {'line': b'[100%] Built target mars_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.985823] (mars_msgs) StdoutLine: {'line': b'[100%] Built target mars_msgs__rosidl_typesupport_c__pyext\n'}
+[2.994613] (mars_msgs) CommandEnded: {'returncode': 0}
+[2.995584] (mars_msgs) JobProgress: {'identifier': 'mars_msgs', 'progress': 'install'}
+[3.001603] (mars_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pradyun/Assignment2_ws/build/mars_msgs'], 'cwd': '/home/pradyun/Assignment2_ws/build/mars_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pradyun'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pradyun'), ('OLDPWD', '/home/pradyun'), ('TERMINFO', '/home/pradyun/.local/kitty.app/lib/kitty/terminfo'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('KITTY_INSTALLATION_DIR', '/home/pradyun/.local/kitty.app/lib/kitty'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/pradyun/.local/share/applications/kitty.desktop'), ('ZSH', '/home/pradyun/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1513'), ('KITTY_PID', '3767'), ('SYSTEMD_EXEC_PID', '1675'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3767'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pradyun'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:11052'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USERNAME', 'pradyun'), ('TERM', 'xterm-kitty'), ('KITTY_PUBLIC_KEY', '1:RL>0q9+Kd~SeiD;;XvQI_e5iKrh!Lw7)YO%bzSR6'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/pradyun/.local/kitty.app/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/pradyun/.fzf/bin'), ('SESSION_MANAGER', 'local/pradyun-ThinkBook-14-G8-IRL:@/tmp/.ICE-unix/1637,unix/pradyun-ThinkBook-14-G8-IRL:/tmp/.ICE-unix/1637'), ('INVOCATION_ID', 'd9504fab21f84286ba16af38b38111de'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DESKTOP_STARTUP_ID', 'gnome-shell/kitty/1675-1-pradyun-ThinkBook-14-G8-IRL_TIME40238'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5ZDGH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('KITTY_WINDOW_ID', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/pradyun/Assignment2_ws/build/mars_msgs'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('MANPATH', '/home/pradyun/.local/kitty.app/share/man:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.004503] (-) TimerEvent: {}
+[3.007872] (mars_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.008120] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/ament_index/resource_index/rosidl_interfaces/mars_msgs\n'}
+[3.008308] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs\n'}
+[3.008420] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg\n'}
+[3.008561] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rover_odometry.h\n'}
+[3.008725] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.008829] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail\n'}
+[3.008929] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__type_support.h\n'}
+[3.009095] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__struct.h\n'}
+[3.009185] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__functions.h\n'}
+[3.009232] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__functions.c\n'}
+[3.009331] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv\n'}
+[3.009373] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/add_three_ints.h\n'}
+[3.009410] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail\n'}
+[3.009472] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__functions.c\n'}
+[3.009514] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__type_support.h\n'}
+[3.009553] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__struct.h\n'}
+[3.009591] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__functions.h\n'}
+[3.009629] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/environment/library_path.sh\n'}
+[3.009669] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/environment/library_path.dsv\n'}
+[3.009707] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_generator_c.so\n'}
+[3.009747] (mars_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_generator_c.so" to ""\n'}
+[3.009818] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs\n'}
+[3.009915] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg\n'}
+[3.009956] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.009996] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail\n'}
+[3.010044] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__rosidl_typesupport_fastrtps_c.h\n'}
+[3.010083] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv\n'}
+[3.010122] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail\n'}
+[3.010159] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[3.010201] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.010271] (mars_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.010362] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs\n'}
+[3.010401] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg\n'}
+[3.010435] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rover_odometry.hpp\n'}
+[3.010470] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.010504] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail\n'}
+[3.010539] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__struct.hpp\n'}
+[3.010573] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__traits.hpp\n'}
+[3.010607] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__type_support.hpp\n'}
+[3.010666] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__builder.hpp\n'}
+[3.010703] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv\n'}
+[3.010738] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/add_three_ints.hpp\n'}
+[3.010818] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail\n'}
+[3.010856] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__struct.hpp\n'}
+[3.010891] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__builder.hpp\n'}
+[3.010926] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__traits.hpp\n'}
+[3.010964] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__type_support.hpp\n'}
+[3.010998] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs\n'}
+[3.011037] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg\n'}
+[3.011072] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.011155] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail\n'}
+[3.011197] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.011234] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/dds_fastrtps\n'}
+[3.011275] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv\n'}
+[3.011309] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail\n'}
+[3.011342] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/dds_fastrtps\n'}
+[3.011421] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.011466] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.011507] (mars_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.011594] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs\n'}
+[3.011634] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg\n'}
+[3.011669] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.011705] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail\n'}
+[3.011739] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__type_support.c\n'}
+[3.011776] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__rosidl_typesupport_introspection_c.h\n'}
+[3.011805] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv\n'}
+[3.011840] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail\n'}
+[3.011870] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__type_support.c\n'}
+[3.011933] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[3.011968] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.012047] (mars_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.012085] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_c.so\n'}
+[3.012141] (mars_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_c.so" to ""\n'}
+[3.012173] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs\n'}
+[3.012243] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg\n'}
+[3.012292] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail\n'}
+[3.012319] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__type_support.cpp\n'}
+[3.012347] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/msg/detail/rover_odometry__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.012379] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv\n'}
+[3.012406] (mars_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail\n'}
+[3.012434] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__type_support.cpp\n'}
+[3.012480] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/include/mars_msgs/mars_msgs/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.012510] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.012541] (mars_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.012616] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_cpp.so\n'}
+[3.012732] (mars_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[3.012793] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/environment/pythonpath.sh\n'}
+[3.012882] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/environment/pythonpath.dsv\n'}
+[3.012973] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs-0.0.0-py3.10.egg-info\n'}
+[3.013118] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.013195] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.013275] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.013355] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.013461] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs\n'}
+[3.013534] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.013641] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.013695] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/__init__.py\n'}
+[3.013751] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.013819] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[3.013866] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/_mars_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.013912] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.013957] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/msg\n'}
+[3.013987] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/msg/__init__.py\n'}
+[3.014046] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/msg/_rover_odometry.py\n'}
+[3.014106] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/msg/_rover_odometry_s.c\n'}
+[3.014137] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/srv\n'}
+[3.014196] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/srv/__init__.py\n'}
+[3.014230] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/srv/_add_three_ints_s.c\n'}
+[3.014281] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/srv/_add_three_ints.py\n'}
+[3.014310] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/libmars_msgs__rosidl_generator_py.so\n'}
+[3.042449] (mars_msgs) StdoutLine: {'line': b"Listing '/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs'...\n"}
+[3.042559] (mars_msgs) StdoutLine: {'line': b"Compiling '/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/__init__.py'...\n"}
+[3.042596] (mars_msgs) StdoutLine: {'line': b"Listing '/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/msg'...\n"}
+[3.042626] (mars_msgs) StdoutLine: {'line': b"Compiling '/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/msg/__init__.py'...\n"}
+[3.042655] (mars_msgs) StdoutLine: {'line': b"Compiling '/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/msg/_rover_odometry.py'...\n"}
+[3.042685] (mars_msgs) StdoutLine: {'line': b"Listing '/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/srv'...\n"}
+[3.042713] (mars_msgs) StdoutLine: {'line': b"Compiling '/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/srv/__init__.py'...\n"}
+[3.042740] (mars_msgs) StdoutLine: {'line': b"Compiling '/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/srv/_add_three_ints.py'...\n"}
+[3.045617] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.045745] (mars_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.045881] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.045957] (mars_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.046028] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.046167] (mars_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages/mars_msgs/mars_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.046242] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_generator_py.so\n'}
+[3.046391] (mars_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pradyun/Assignment2_ws/install/mars_msgs/lib/libmars_msgs__rosidl_generator_py.so" to ""\n'}
+[3.046466] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/msg/RoverOdometry.idl\n'}
+[3.046505] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/srv/AddThreeInts.idl\n'}
+[3.046568] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/msg/RoverOdometry.msg\n'}
+[3.046600] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/srv/AddThreeInts.srv\n'}
+[3.046630] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/srv/AddThreeInts_Request.msg\n'}
+[3.046659] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/srv/AddThreeInts_Response.msg\n'}
+[3.046724] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/ament_index/resource_index/package_run_dependencies/mars_msgs\n'}
+[3.046756] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/ament_index/resource_index/parent_prefix_path/mars_msgs\n'}
+[3.046787] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/environment/ament_prefix_path.sh\n'}
+[3.046855] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/environment/ament_prefix_path.dsv\n'}
+[3.046884] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/environment/path.sh\n'}
+[3.046914] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/environment/path.dsv\n'}
+[3.046965] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/local_setup.bash\n'}
+[3.047060] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/local_setup.sh\n'}
+[3.047235] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/local_setup.zsh\n'}
+[3.047358] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/local_setup.dsv\n'}
+[3.047471] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/package.dsv\n'}
+[3.047583] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/ament_index/resource_index/packages/mars_msgs\n'}
+[3.047686] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_generator_cExport.cmake\n'}
+[3.047792] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.047896] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.047989] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.048094] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_generator_cppExport.cmake\n'}
+[3.048205] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.048299] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.048393] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.048487] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.048572] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_cExport.cmake\n'}
+[3.048672] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.048750] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.048827] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.048903] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[3.048979] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.049065] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_generator_pyExport.cmake\n'}
+[3.049142] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/export_mars_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.049228] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.049304] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.049384] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.049459] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.049535] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.049615] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.049719] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.049835] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgsConfig.cmake\n'}
+[3.049922] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/cmake/mars_msgsConfig-version.cmake\n'}
+[3.050015] (mars_msgs) StdoutLine: {'line': b'-- Installing: /home/pradyun/Assignment2_ws/install/mars_msgs/share/mars_msgs/package.xml\n'}
+[3.050562] (mars_msgs) CommandEnded: {'returncode': 0}
+[3.060103] (mars_msgs) JobEnded: {'identifier': 'mars_msgs', 'rc': 0}
+[3.060851] (rover_odometry) JobStarted: {'identifier': 'rover_odometry'}
+[3.104618] (-) TimerEvent: {}
+[3.204827] (-) TimerEvent: {}
+[3.305059] (-) TimerEvent: {}
+[3.405287] (-) TimerEvent: {}
+[3.444489] (rover_odometry) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rover_odometry', 'build', '--build-base', '/home/pradyun/Assignment2_ws/build/rover_odometry/build', 'install', '--record', '/home/pradyun/Assignment2_ws/build/rover_odometry/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pradyun/Assignment2_ws/src/rover_odometry', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LANGUAGE': 'en_IN:en', 'USER': 'pradyun', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pradyun/Assignment2_ws/install/mars_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pradyun', 'OLDPWD': '/home/pradyun', 'TERMINFO': '/home/pradyun/.local/kitty.app/lib/kitty/terminfo', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'KITTY_INSTALLATION_DIR': '/home/pradyun/.local/kitty.app/lib/kitty', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/pradyun/.local/share/applications/kitty.desktop', 'ZSH': '/home/pradyun/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '1513', 'KITTY_PID': '3767', 'SYSTEMD_EXEC_PID': '1675', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3767', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pradyun', '_': '/usr/bin/colcon', 'JOURNAL_STREAM': '8:11052', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'pradyun', 'TERM': 'xterm-kitty', 'KITTY_PUBLIC_KEY': '1:RL>0q9+Kd~SeiD;;XvQI_e5iKrh!Lw7)YO%bzSR6', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/pradyun/.local/kitty.app/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/pradyun/.fzf/bin', 'SESSION_MANAGER': 'local/pradyun-ThinkBook-14-G8-IRL:@/tmp/.ICE-unix/1637,unix/pradyun-ThinkBook-14-G8-IRL:/tmp/.ICE-unix/1637', 'INVOCATION_ID': 'd9504fab21f84286ba16af38b38111de', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DESKTOP_STARTUP_ID': 'gnome-shell/kitty/1675-1-pradyun-ThinkBook-14-G8-IRL_TIME40238', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5ZDGH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pradyun/Assignment2_ws/install/mars_msgs:/opt/ros/humble', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'KITTY_WINDOW_ID': '1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/pradyun/Assignment2_ws/build/rover_odometry', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pradyun/Assignment2_ws/build/rover_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages:/home/pradyun/Assignment2_ws/install/mars_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'MANPATH': '/home/pradyun/.local/kitty.app/share/man:', 'CMAKE_PREFIX_PATH': '/home/pradyun/Assignment2_ws/install/mars_msgs'}, 'shell': False}
+[3.505385] (-) TimerEvent: {}
+[3.588672] (rover_odometry) StdoutLine: {'line': b'running egg_info\n'}
+[3.589152] (rover_odometry) StdoutLine: {'line': b'creating ../../build/rover_odometry/rover_odometry.egg-info\n'}
+[3.589241] (rover_odometry) StdoutLine: {'line': b'writing ../../build/rover_odometry/rover_odometry.egg-info/PKG-INFO\n'}
+[3.589347] (rover_odometry) StdoutLine: {'line': b'writing dependency_links to ../../build/rover_odometry/rover_odometry.egg-info/dependency_links.txt\n'}
+[3.589472] (rover_odometry) StdoutLine: {'line': b'writing entry points to ../../build/rover_odometry/rover_odometry.egg-info/entry_points.txt\n'}
+[3.589531] (rover_odometry) StdoutLine: {'line': b'writing requirements to ../../build/rover_odometry/rover_odometry.egg-info/requires.txt\n'}
+[3.589585] (rover_odometry) StdoutLine: {'line': b'writing top-level names to ../../build/rover_odometry/rover_odometry.egg-info/top_level.txt\n'}
+[3.589676] (rover_odometry) StdoutLine: {'line': b"writing manifest file '../../build/rover_odometry/rover_odometry.egg-info/SOURCES.txt'\n"}
+[3.590740] (rover_odometry) StdoutLine: {'line': b"reading manifest file '../../build/rover_odometry/rover_odometry.egg-info/SOURCES.txt'\n"}
+[3.591143] (rover_odometry) StdoutLine: {'line': b"writing manifest file '../../build/rover_odometry/rover_odometry.egg-info/SOURCES.txt'\n"}
+[3.591231] (rover_odometry) StdoutLine: {'line': b'running build\n'}
+[3.591291] (rover_odometry) StdoutLine: {'line': b'running build_py\n'}
+[3.591373] (rover_odometry) StdoutLine: {'line': b'creating /home/pradyun/Assignment2_ws/build/rover_odometry/build\n'}
+[3.591434] (rover_odometry) StdoutLine: {'line': b'creating /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib\n'}
+[3.591486] (rover_odometry) StdoutLine: {'line': b'creating /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry\n'}
+[3.591542] (rover_odometry) StdoutLine: {'line': b'copying rover_odometry/__init__.py -> /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry\n'}
+[3.591596] (rover_odometry) StdoutLine: {'line': b'copying rover_odometry/publisher.py -> /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry\n'}
+[3.591658] (rover_odometry) StdoutLine: {'line': b'copying rover_odometry/subscriber.py -> /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry\n'}
+[3.591763] (rover_odometry) StdoutLine: {'line': b'running install\n'}
+[3.591979] (rover_odometry) StdoutLine: {'line': b'running install_lib\n'}
+[3.592465] (rover_odometry) StdoutLine: {'line': b'creating /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry\n'}
+[3.592562] (rover_odometry) StdoutLine: {'line': b'copying /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry/subscriber.py -> /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry\n'}
+[3.592645] (rover_odometry) StdoutLine: {'line': b'copying /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry/__init__.py -> /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry\n'}
+[3.592705] (rover_odometry) StdoutLine: {'line': b'copying /home/pradyun/Assignment2_ws/build/rover_odometry/build/lib/rover_odometry/publisher.py -> /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry\n'}
+[3.593000] (rover_odometry) StdoutLine: {'line': b'byte-compiling /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry/subscriber.py to subscriber.cpython-310.pyc\n'}
+[3.593368] (rover_odometry) StdoutLine: {'line': b'byte-compiling /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry/__init__.py to __init__.cpython-310.pyc\n'}
+[3.593471] (rover_odometry) StdoutLine: {'line': b'byte-compiling /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry/publisher.py to publisher.cpython-310.pyc\n'}
+[3.593728] (rover_odometry) StdoutLine: {'line': b'running install_data\n'}
+[3.593820] (rover_odometry) StdoutLine: {'line': b'creating /home/pradyun/Assignment2_ws/install/rover_odometry/share/ament_index\n'}
+[3.593899] (rover_odometry) StdoutLine: {'line': b'creating /home/pradyun/Assignment2_ws/install/rover_odometry/share/ament_index/resource_index\n'}
+[3.593960] (rover_odometry) StdoutLine: {'line': b'creating /home/pradyun/Assignment2_ws/install/rover_odometry/share/ament_index/resource_index/packages\n'}
+[3.594035] (rover_odometry) StdoutLine: {'line': b'copying resource/rover_odometry -> /home/pradyun/Assignment2_ws/install/rover_odometry/share/ament_index/resource_index/packages\n'}
+[3.594095] (rover_odometry) StdoutLine: {'line': b'copying package.xml -> /home/pradyun/Assignment2_ws/install/rover_odometry/share/rover_odometry\n'}
+[3.594168] (rover_odometry) StdoutLine: {'line': b'creating /home/pradyun/Assignment2_ws/install/rover_odometry/share/rover_odometry/launch\n'}
+[3.594226] (rover_odometry) StdoutLine: {'line': b'copying launch/launch.py -> /home/pradyun/Assignment2_ws/install/rover_odometry/share/rover_odometry/launch\n'}
+[3.594273] (rover_odometry) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.595934] (rover_odometry) StdoutLine: {'line': b'Copying ../../build/rover_odometry/rover_odometry.egg-info to /home/pradyun/Assignment2_ws/install/rover_odometry/lib/python3.10/site-packages/rover_odometry-0.0.0-py3.10.egg-info\n'}
+[3.596308] (rover_odometry) StdoutLine: {'line': b'running install_scripts\n'}
+[3.605469] (-) TimerEvent: {}
+[3.609431] (rover_odometry) StdoutLine: {'line': b'Installing publisher script to /home/pradyun/Assignment2_ws/install/rover_odometry/lib/rover_odometry\n'}
+[3.609566] (rover_odometry) StdoutLine: {'line': b'Installing subscriber script to /home/pradyun/Assignment2_ws/install/rover_odometry/lib/rover_odometry\n'}
+[3.609774] (rover_odometry) StdoutLine: {'line': b"writing list of installed files to '/home/pradyun/Assignment2_ws/build/rover_odometry/install.log'\n"}
+[3.627358] (rover_odometry) CommandEnded: {'returncode': 0}
+[3.630857] (rover_odometry) JobEnded: {'identifier': 'rover_odometry', 'rc': 0}
+[3.631363] (-) EventReactorShutdown: {}

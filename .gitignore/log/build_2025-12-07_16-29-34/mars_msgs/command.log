@@ -1,2 +1,0 @@
-Invoking command in '/home/pradyun/Assignment2_ws/build/mars_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pradyun/Assignment2_ws/src/mars_msgs -DCMAKE_INSTALL_PREFIX=/home/pradyun/Assignment2_ws/install/mars_msgs
-Invoked command in '/home/pradyun/Assignment2_ws/build/mars_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pradyun/Assignment2_ws/src/mars_msgs -DCMAKE_INSTALL_PREFIX=/home/pradyun/Assignment2_ws/install/mars_msgs

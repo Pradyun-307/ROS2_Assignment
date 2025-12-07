@@ -1,0 +1,47 @@
+[0.405s] Invoking command in '/home/pradyun/Assignment2_ws/src/rover': PYTHONPATH=/home/pradyun/Assignment2_ws/build/rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover build --build-base /home/pradyun/Assignment2_ws/build/rover/build install --record /home/pradyun/Assignment2_ws/build/rover/install.log --single-version-externally-managed install_data
+[0.545s] running egg_info
+[0.546s] creating ../../build/rover/rover.egg-info
+[0.546s] writing ../../build/rover/rover.egg-info/PKG-INFO
+[0.546s] writing dependency_links to ../../build/rover/rover.egg-info/dependency_links.txt
+[0.546s] writing entry points to ../../build/rover/rover.egg-info/entry_points.txt
+[0.546s] writing requirements to ../../build/rover/rover.egg-info/requires.txt
+[0.546s] writing top-level names to ../../build/rover/rover.egg-info/top_level.txt
+[0.546s] writing manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+[0.547s] reading manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+[0.547s] writing manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+[0.548s] running build
+[0.548s] running build_py
+[0.548s] creating /home/pradyun/Assignment2_ws/build/rover/build
+[0.548s] creating /home/pradyun/Assignment2_ws/build/rover/build/lib
+[0.548s] creating /home/pradyun/Assignment2_ws/build/rover/build/lib/rover
+[0.548s] copying rover/__init__.py -> /home/pradyun/Assignment2_ws/build/rover/build/lib/rover
+[0.548s] copying rover/pub1.py -> /home/pradyun/Assignment2_ws/build/rover/build/lib/rover
+[0.548s] copying rover/pub2.py -> /home/pradyun/Assignment2_ws/build/rover/build/lib/rover
+[0.548s] copying rover/sub.py -> /home/pradyun/Assignment2_ws/build/rover/build/lib/rover
+[0.548s] running install
+[0.548s] running install_lib
+[0.549s] creating /home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages/rover
+[0.549s] copying /home/pradyun/Assignment2_ws/build/rover/build/lib/rover/__init__.py -> /home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages/rover
+[0.549s] copying /home/pradyun/Assignment2_ws/build/rover/build/lib/rover/sub.py -> /home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages/rover
+[0.549s] copying /home/pradyun/Assignment2_ws/build/rover/build/lib/rover/pub2.py -> /home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages/rover
+[0.549s] copying /home/pradyun/Assignment2_ws/build/rover/build/lib/rover/pub1.py -> /home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages/rover
+[0.549s] byte-compiling /home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages/rover/__init__.py to __init__.cpython-310.pyc
+[0.549s] byte-compiling /home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages/rover/sub.py to sub.cpython-310.pyc
+[0.549s] byte-compiling /home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages/rover/pub2.py to pub2.cpython-310.pyc
+[0.549s] byte-compiling /home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages/rover/pub1.py to pub1.cpython-310.pyc
+[0.550s] running install_data
+[0.550s] creating /home/pradyun/Assignment2_ws/install/rover/share/ament_index
+[0.550s] creating /home/pradyun/Assignment2_ws/install/rover/share/ament_index/resource_index
+[0.550s] creating /home/pradyun/Assignment2_ws/install/rover/share/ament_index/resource_index/packages
+[0.550s] copying resource/rover -> /home/pradyun/Assignment2_ws/install/rover/share/ament_index/resource_index/packages
+[0.550s] copying package.xml -> /home/pradyun/Assignment2_ws/install/rover/share/rover
+[0.550s] creating /home/pradyun/Assignment2_ws/install/rover/share/rover/launch
+[0.550s] copying launch/launch.py -> /home/pradyun/Assignment2_ws/install/rover/share/rover/launch
+[0.550s] running install_egg_info
+[0.551s] Copying ../../build/rover/rover.egg-info to /home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info
+[0.551s] running install_scripts
+[0.565s] Installing pub1 script to /home/pradyun/Assignment2_ws/install/rover/lib/rover
+[0.565s] Installing pub2 script to /home/pradyun/Assignment2_ws/install/rover/lib/rover
+[0.565s] Installing sub script to /home/pradyun/Assignment2_ws/install/rover/lib/rover
+[0.565s] writing list of installed files to '/home/pradyun/Assignment2_ws/build/rover/install.log'
+[0.582s] Invoked command in '/home/pradyun/Assignment2_ws/src/rover' returned '0': PYTHONPATH=/home/pradyun/Assignment2_ws/build/rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pradyun/Assignment2_ws/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover build --build-base /home/pradyun/Assignment2_ws/build/rover/build install --record /home/pradyun/Assignment2_ws/build/rover/install.log --single-version-externally-managed install_data
